@@ -10,9 +10,16 @@ Compare with other dataset, These painting are the first step of drawing a Lands
 
 Dataset Samples:
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/sample-sketch.png width="900"/>
+    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/sample-sketch.png width="900"/>
 </div>
 
 ## Generation
 
 Use the StyleGAN3 model, generation example:
+<div align=center>
+    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g1.jpg width="600"/>
+</div>
+
+<div align=center>
+    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g2.jpg width="600"/>
+</div>
