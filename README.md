@@ -23,3 +23,10 @@ Use the StyleGAN3 model, generation example:
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g2.jpg width="600"/>
 </div>
+
+
+## Style transfer
+
+To make the model obtain the ability of style transfer to any landscape painting style, I use the model from HERE.
+Result:
+
