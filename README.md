@@ -13,3 +13,6 @@ Dataset Samples:
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/sample-sketch.png width="900"/>
 </div>
 
+## Generation
+
+Use the StyleGAN3 model, generation example:
