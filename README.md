@@ -19,7 +19,7 @@ Dataset Samples:
 
 However, according to my practical experience, use all dataset to train a model(i.e. StlyGAN2) can not generate ideal result. Thus, I devide the dataset into all&mini. In the mini dataset, it inculde 105 sketch paintings whose structure are simpler and easier to let the model learn how to draw.
 
-Each of the 105 sketch has a corresponding painted painting. Thus it also can be used as the train dataset for colorized model(i.e. Pix2Pix).
+Each of the 105 sketch has a corresponding painted painting. Thus it also can be used as the train dataset for colorized model(i.e. Pix2Pix). And I also use filp-tranverse to do data expansion. So there will be 210 sketch-paintings pair in the end.
 
 ## Generation
 
