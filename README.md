@@ -41,7 +41,8 @@ Use the pix2pix model, generation example:
 ## Style transfer
 
 To get better result, I use pix2pix model to colorize first and then use the PAMA to do stle transfer task. The reason I do in this way is because PAMA use the VGG pre-trained model which is trained on ImageNet, it can not work well in binary picture. 
-Result:
+
+Final result:
 
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/t1.png width="800"/>
