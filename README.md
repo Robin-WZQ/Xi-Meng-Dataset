@@ -36,7 +36,9 @@ Use the StyleGAN2 model, generation example:
 
 Use the pix2pix model, generation example:
 
-
+<div align=center>
+    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/pic1.png width="600"/>
+</div>
 
 ## Style transfer
 
