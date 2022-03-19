@@ -4,7 +4,7 @@ Chinese-Landscape-Painting-style-Generation：Dataset & Method
 
 ## Dataset-ALL
 
-Here, we provide the dataset used to train our model. The dataset consists of 489 high-quality traditional Chinese landscape paintings sketch(中国山水画轮廓). All paintings are sized 512x512 and converted to binary format. All paintings are drew by human artists.
+Here, we provide the dataset used to train our model. The dataset consists of 489 high-quality traditional Chinese landscape paintings sketches(中国山水画轮廓). All paintings are resized to 512x512 and converted to binary format. All paintings are drew by human artists.
 
 Compare with other datasets, These paintings are the first step of drawing a Landscape painting (without any colorization, just lines)
 
@@ -15,7 +15,7 @@ Dataset Samples:
 
 ## Dataset-mini
 
-However, according to my practical experience, use all dataset to train a model(i.e. StlyGAN2) can not generate ideal result. Thus, I divide the dataset into all&mini. In the mini dataset, it inculdes 105 sketch paintings whose structure are simpler and easier to let the model learn how to draw.
+However, according to my practical experience, use all dataset to train a model(i.e. StyleGAN2) can not generate ideal results. Thus, I divide the dataset into all&mini. In the mini dataset, it inculdes 105 sketches whose structure are simpler and easier to let the model learn how to draw.
 
 Each of the 105 sketch has a corresponding painted painting. Thus it also can be used as the train dataset for colorized model(i.e. Pix2Pix). And I also use filp-tranverse to do data expansion. So there will be 210 sketch-paintings pair in the end.
 
@@ -40,7 +40,7 @@ Use the pix2pix model, generation example:
 
 ## Style transfer
 
-To get better result, I use pix2pix model to colorize first and then use the PAMA to do stle transfer task. The reason I do in this way is because PAMA use the VGG pre-trained model which is trained on ImageNet, it can not work well in binary picture. 
+To get better result, I use pix2pix model to colorize first and then use the PAMA to do style transfer task. The reason I do in this way is because PAMA use the VGG pre-trained model which is trained on ImageNet, it can not work well in binary picture. 
 
 Final result:
 
