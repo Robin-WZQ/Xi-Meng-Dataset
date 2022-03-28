@@ -2,8 +2,9 @@
 
 Chinese-Landscape-Painting-style-Generation：Dataset & Method
 
-
-![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
+<div align=center>
+<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/20220328-105319.gif" alt="结果" style="zoom:60%;" />
+</div>
 
 ## Dataset-ALL
 
