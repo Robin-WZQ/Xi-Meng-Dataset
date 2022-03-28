@@ -6,9 +6,7 @@ Chinese-Landscape-Painting-style-Generation：Dataset & Method
 <img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/20220328-105319.gif" alt="结果" style="zoom:60%;" />
 </div>
 
-<div align=center>
-<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/gen.gif" alt="结果" style="zoom:60%;" />
-</div>
+
 
 ## Dataset-ALL
 
@@ -36,6 +34,10 @@ generation example:
 
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g2.jpg width="600"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/gen.gif" alt="结果" style="zoom:10%;" />
 </div>
 
 ## Colorization (coarse-grain)
