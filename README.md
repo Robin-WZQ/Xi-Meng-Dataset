@@ -2,6 +2,9 @@
 
 Chinese-Landscape-Painting-style-Generation：Dataset & Method
 
+
+![图片2](https://github.com/Robin-WZQ/Chinese-Landscape-Painting-Generation/blob/main/assets/test.gif)
+
 ## Dataset-ALL
 
 Here, we provide the dataset used to train our model. The dataset consists of 489 high-quality traditional Chinese landscape paintings sketches(中国山水画轮廓). All paintings are resized to 512x512 and converted to binary format. All paintings are drew by human artists.
