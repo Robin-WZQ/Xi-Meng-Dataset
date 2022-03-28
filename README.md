@@ -25,7 +25,7 @@ Each of the 105 sketch has a corresponding painted painting. Thus it also can be
 
 ## Generation
 
-Use the StyleGAN2 model, generation example:
+generation example:
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g1.jpg width="600"/>
 </div>
@@ -34,17 +34,15 @@ Use the StyleGAN2 model, generation example:
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g2.jpg width="600"/>
 </div>
 
-## Colorization
+## Colorization (coarse-grain)
 
-Use the pix2pix model, generation example:
+Colorization example:
 
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/pic1.png width="600"/>
 </div>
 
-## Style transfer
-
-To get better result, I use pix2pix model to colorize first and then use the PAMA to do style transfer task. The reason I do in this way is because PAMA use the VGG pre-trained model which is trained on ImageNet, it can not work well in binary picture. 
+## Style transfer (fine-grain)
 
 Final result:
 
