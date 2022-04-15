@@ -41,5 +41,9 @@ Final result:
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/t1.png width="800"/>
 </div>
 
+## 致谢
+
+感谢北京理工大学付莹老师指导，感谢关杜平青绿山水画工作室对画作的支持。
+
 
 
