@@ -1,54 +1,40 @@
-# Chinese-Landscape-Painting-style-Generation
+# 希孟：中国山水画生成系统
 
-Chinese-Landscape-Painting-style-Generation：Dataset & Method
-
-<div align=center>
-<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/20220328-105319.gif" alt="结果" style="zoom:60%;" />
-</div>
+中国山水画风格生成：数据集&方法
 
 
+## 数据
 
-## Dataset-ALL
+**数据来源** 为了完成轮廓生成和基础色上色任务，我们分别构建了485张由毛笔绘制的纯线条轮廓以及105张“轮廓-基础色”匹配对。纯线条轮廓中，有102张是由艺术家绘制而成，剩余383张轮廓是由现代山水画教材上扫描得来，这些画作均是用毛笔作画而成。另105张“轮廓-基础色”匹配对均是由艺术家绘制而成，每张画先后经历赭石、头青两色的晕染而成，以达到基础色上色的要求。为避免画作中出现的褶皱为模型带来噪声，我们选用在正方形的熟宣卡纸上进行作画。
 
-Here, we provide the dataset used to train our model. The dataset consists of 489 high-quality traditional Chinese landscape paintings sketches(中国山水画轮廓). All paintings are resized to 512x512 and converted to binary format. All paintings are drew by human artists.
+**预处理** 对于在正方形熟宣上的轮廓和其基础色上色图片，我们直接缩放至512×512。对于在教材上出现的轮廓，我们拍照后进行有重叠的图像剪裁，之后缩放至512×512。由于轮廓图片受光照、纸张颜色以及噪声等影响，直接将其输入模型并不是一个好的选择。因此，我们首先对轮廓图片进行二值化处理。对于“轮廓-基础上色”匹配对，我们进行水平翻转以进行数据增广，因此最终会有210张匹配对。
 
-Compare with other datasets, These paintings are the first step of drawing a Landscape painting (without any colorization, just lines)
-
-Dataset Samples:
+数据样本展示:
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/sample-sketch.png width="900"/>
 </div>
 
-## Dataset-mini
+## 轮廓生成
 
-However, according to my practical experience, use all dataset to train a model(i.e. StyleGAN2) can not generate ideal results. Thus, I divide the dataset into all&mini. In the mini dataset, it inculdes 105 sketches whose structure are simpler and easier to let the model learn how to draw.
-
-Each of the 105 sketch has a corresponding painted painting. Thus it also can be used as the train dataset for colorized model(i.e. Pix2Pix). And I also use filp-tranverse to do data expansion. So there will be 210 sketch-paintings pair in the end.
-
-## Generation
-
-generation example:
+生成结果展示：
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g1.jpg width="600"/>
 </div>
 
-<div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g2.jpg width="600"/>
-</div>
 
 <div align=center>
 <img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/gen.gif" alt="结果" style="zoom:10%;" />
 </div>
 
-## Colorization (coarse-grain)
+## 基础色上色（粗细度上色）
 
-Colorization example:
+上色结果展示：
 
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/pic1.png width="600"/>
 </div>
 
-## Style transfer (fine-grain)
+## 风格色上色（精细度上色）
 
 Final result:
 
