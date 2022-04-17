@@ -16,10 +16,16 @@
 **预处理** 对于在正方形熟宣上的轮廓和其基础色上色图片，我们直接缩放至512×512。对于在教材上出现的轮廓，我们拍照后进行有重叠的图像剪裁，之后缩放至512×512。由于轮廓图片受光照、纸张颜色以及噪声等影响，直接将其输入模型并不是一个好的选择。因此，我们首先对轮廓图片进行二值化处理。对于“轮廓-基础上色”匹配对，我们进行水平翻转以进行数据增广，因此最终会有210张匹配对。
 
 数据样本展示:
+
+轮廓图：
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/sample-sketch.png width="900"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/sketch.png width="600"/>
 </div>
 
+匹配图：
+<div align=center>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/pair.png width="600"/>
+</div>
 
 ## 致谢
 
