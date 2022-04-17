@@ -1,3 +1,7 @@
+<div align=center>
+    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/logo.png width="600"/>
+</div>
+
 # 希孟：中国山水画生成系统
 
 ## 数据
