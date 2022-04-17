@@ -23,37 +23,10 @@
     <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/sample-sketch.png width="900"/>
 </div>
 
-## 轮廓生成
-
-生成结果展示：
-<div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/g1.jpg width="600"/>
-</div>
-
-
-<div align=center>
-<img src="https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/gen.gif" alt="结果" style="zoom:10%;" />
-</div>
-
-## 基础色上色（粗细度上色）
-
-上色结果展示：
-
-<div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/pic1.png width="600"/>
-</div>
-
-## 风格色上色（精细度上色）
-
-Final result:
-
-<div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/t1.png width="800"/>
-</div>
 
 ## 致谢
 
-感谢北京理工大学付莹老师指导，感谢关杜平青绿山水画工作室对画作的支持。
+感谢关杜平青绿山水画工作室对画作的支持。👍👍👍
 
 
 
