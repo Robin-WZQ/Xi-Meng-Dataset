@@ -2,13 +2,10 @@
     <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/logo.png width="600"/>
 </div>
 
-# 希孟：中国山水画生成系统
+# 希孟-数据集
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Love](https://img.shields.io/badge/Made%20with-love-ff69b4)
 ![Version](https://img.shields.io/badge/version-1.0-red)
-
-![GitHub stars](https://img.shields.io/github/stars/Robin-WZQ/Xi-Meng.svg?style=social)
-![GitHub repo size](https://img.shields.io/github/repo-size/Robin-WZQ/Xi-Meng.svg?style=social)
 
 ## 数据
 
