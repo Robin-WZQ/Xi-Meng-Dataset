@@ -1,8 +1,14 @@
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/logo.png width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/logo.png width="600"/>
 </div>
 
 # 希孟：中国山水画生成系统
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Love](https://img.shields.io/badge/Made%20with-love-ff69b4)
+![Version](https://img.shields.io/badge/version-1.0-red)
+
+![GitHub stars](https://img.shields.io/github/stars/Robin-WZQ/Xi-Meng.svg?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/Robin-WZQ/Xi-Meng.svg?style=social)
 
 ## 数据
 
@@ -14,19 +20,19 @@
 
 数据样本展示:
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/sample-sketch.png width="900"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/sample-sketch.png width="900"/>
 </div>
 
 ## 轮廓生成
 
 生成结果展示：
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/g1.jpg width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/g1.jpg width="600"/>
 </div>
 
 
 <div align=center>
-<img src="https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/gen.gif" alt="结果" style="zoom:10%;" />
+<img src="https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/gen.gif" alt="结果" style="zoom:10%;" />
 </div>
 
 ## 基础色上色（粗细度上色）
@@ -34,7 +40,7 @@
 上色结果展示：
 
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/pic1.png width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/pic1.png width="600"/>
 </div>
 
 ## 风格色上色（精细度上色）
@@ -42,7 +48,7 @@
 Final result:
 
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Chinese-Landscape-Painting-style-Generation/blob/main/assets/t1.png width="800"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/t1.png width="800"/>
 </div>
 
 ## 致谢
