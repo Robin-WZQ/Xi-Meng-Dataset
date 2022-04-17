@@ -1,5 +1,5 @@
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/logo.png width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/logo.png width="600"/>
 </div>
 
 # 希孟-数据集
@@ -19,12 +19,12 @@
 
 轮廓图：
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/sketch.png width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/sketch.png width="600"/>
 </div>
 
 匹配图：
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng/blob/main/assets/pair.png width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/pair.png width="600"/>
 </div>
 
 ## 致谢
