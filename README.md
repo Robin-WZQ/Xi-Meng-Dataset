@@ -7,7 +7,7 @@
 ![Love](https://img.shields.io/badge/Made%20with-love-ff69b4)
 ![Version](https://img.shields.io/badge/version-1.0-red)
 
-[中文](https://github.com/Robin-WZQ/Xi-Meng-Dataset) | [English](https://github.com/Robin-WZQ/Xi-Meng-Dataset/tree/English)
+[中文](https://github.com/Robin-WZQ/Xi-Meng-Dataset) | [English](https://github.com/Robin-WZQ/Xi-Meng-Dataset/tree/english)
 
 ## 数据
 
