@@ -2,34 +2,34 @@
     <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/logo.png width="600"/>
 </div>
 
-# 希孟-数据集
+# Xi Meng-Datasets
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Love](https://img.shields.io/badge/Made%20with-love-ff69b4)
 ![Version](https://img.shields.io/badge/version-1.0-red)
 
-## 数据
+## Data
 
-获若想获取数据请发邮箱至：2485794339@qq.com，并说明您的学校与使用目的，目前我们只对**研究人员**开放，谢谢！
+If you want to get the data, please email to: 2485794339@qq.com , and explain your school and use purpose. **Note that we are only open to researchers**. Thank you!
 
-**数据来源** 为了完成轮廓生成和基础色上色任务，我们分别构建了485张由毛笔绘制的纯线条轮廓以及105张“轮廓-基础色”匹配对。纯线条轮廓中，有102张是由艺术家绘制而成，剩余383张轮廓是由现代山水画教材上扫描得来，这些画作均是用毛笔作画而成。另105张“轮廓-基础色”匹配对均是由艺术家绘制而成，每张画先后经历赭石、头青两色的晕染而成，以达到基础色上色的要求。为避免画作中出现的褶皱为模型带来噪声，我们选用在正方形的熟宣卡纸上进行作画。
+Data source in order to complete the tasks of contour generation and basic color coloring, we constructed 485 pure line contours drawn by brush and 105 "contour -- basic color" matching pairs respectively. Among the pure line outlines, 102 are drawn by artists, and the remaining 383 are scanned from modern landscape painting textbooks. These paintings are painted with brush. The other 105 matching pairs of "Outline - basic color" are all drawn by artists. Each picture has experienced the halo dyeing of ochre and head green, so as to meet the requirements of basic color coloring. In order to avoid the noise caused by the folds in the painting, we choose to draw on the square cooked poster paper.
 
-**预处理** 对于在正方形熟宣上的轮廓和其基础色上色图片，我们直接缩放至512×512。对于在教材上出现的轮廓，我们拍照后进行有重叠的图像剪裁，之后缩放至512×512。由于轮廓图片受光照、纸张颜色以及噪声等影响，直接将其输入模型并不是一个好的选择。因此，我们首先对轮廓图片进行二值化处理。对于“轮廓-基础上色”匹配对，我们进行水平翻转以进行数据增广，因此最终会有210张匹配对。
+Preprocessing for the outline on the square and its base color picture, we directly zoom to 512 × 512。 For the outline appearing in the textbook, we cut the overlapping image after taking photos, and then zoom to 512 × 512。 Because the contour image is affected by illumination, paper color and noise, it is not a good choice to input it directly into the model. Therefore, we first binarize the contour image. For "contour base color" matching, we flip horizontally to expand the data, so there will be 210 matching pairs in the end.
 
-## 数据样本展示:
+## Sample
 
-轮廓图：
+Contour：
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/sketch.png width="600"/>
 </div>
 
-匹配图：
+Contour -- basic color:
 <div align=center>
     <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/pair.png width="600"/>
 </div>
 
-## 致谢
+## Acknowledge
 
-感谢关杜平青绿山水画工作室对画作的支持。👍👍👍
+Thanks to Guan duping's green landscape painting studio(关杜平青绿山水画工作室) for its support.👍👍👍
 
 
 
