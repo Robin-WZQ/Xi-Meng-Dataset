@@ -1,5 +1,5 @@
 <div align=center>
-    <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/logo.png width="600"/>
+    <img src=https://github.com/Robin-WZQ/Xi-Meng-Dataset/blob/main/assets/logo.png width="500"/>
 </div>
 
 # 希孟-数据集
