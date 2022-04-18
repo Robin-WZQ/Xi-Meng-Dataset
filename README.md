@@ -7,6 +7,8 @@
 ![Love](https://img.shields.io/badge/Made%20with-love-ff69b4)
 ![Version](https://img.shields.io/badge/version-1.0-red)
 
+[中文](https://github.com/Robin-WZQ/Xi-Meng-Dataset) | [English](https://github.com/Robin-WZQ/Xi-Meng-Dataset/tree/English)
+
 ## 数据
 
 获若想获取数据请发邮箱至：2485794339@qq.com，并说明您的学校与使用目的，目前我们只对**研究人员**开放，谢谢！
