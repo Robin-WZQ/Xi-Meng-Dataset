@@ -31,7 +31,7 @@ Contour -- basic color:
 
 ## Acknowledge
 
-Thanks to Guan duping's green landscape painting studio(关杜平青绿山水画工作室) for its support.👍👍👍
+Thanks to Guan duping's green landscape painting studio for its support.👍👍👍
 
 
 
